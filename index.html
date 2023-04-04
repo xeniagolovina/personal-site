@@ -2,64 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./normalize.css" rel="stylesheet" />
-    <link href="./style.css" rel="stylesheet" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Xenia Golovina</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body {
+       background-image: url(img.png); /* Путь к фоновому изображению */
+       background-attachment: fixed; /* Фиксируем фон веб-страницы */
+       background-size: cover;
+      }
+     </style>
   </head>
   <body>
-    <header class="header">
-      <img src="./avatar.jpg" alt="avatar" class="header__avatar" />
-      <h1 class="header__title">Xenia Golovina</h1>
-      <h3 class="header__subtitle">Tech & art enthusiast</h3>
-    </header>
-    <main>
-      <section class="links">
-        <h2 class="links__header">Contact me at</h2>
-        <ul class="links__container">
-          <li class="links__link">
-            <p class="links__title">Telegram</p>
-            <a class="linsk__link" href="http://t.me/lstlf">@lstlf</a>
-          </li>
-          <li class="links__link">
-            <p class="links__title">Mail</p>
-            <a class="linsk__link" href="mailto:golovina.k.o@gmail.com"
-              >golovina.k.o@gmail.com</a
-            >
-          </li>
-          <li class="links__link">
-            <p class="links__title">Github</p>
-            <a class="linsk__link" href="http://github.com/xeniagolovina">@xeniagolovina</a>
-          </li>
-        </ul>
-      </section>
-      <section class="links">
-        <h2 class="links__header">Contributions</h2>
-        <ul class="links__container">
-          <li class="links__link">
-            <p class="links__title">QA engineer</p>
-            <a class="linsk__link" href="https://qa.studio/">QA studio</a>
-          </li>
-          <li class="links__link">
-            <p class="links__title">Cofounder</p>
-            <a class="linsk__link" href="https://www.instagram.com/cut.a.rug/">CUTARUG</a>
-          </li>
-          <li class="links__link">
-            <p class="links__title">Sound collagist</p>
-            <a class="linsk__link" href="https://soundcloud.com/atlastlife">SoundCloud</a>
-          </li>
-          <li class="links__link">
-            <p class="links__title">3d artist</p>
-            <a class="linsk__link" href="https://www.instagram.com/artlastlife/">@artlastlife</a>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <button type = "button" class="button-link" href=""> Fortune teller button  </button>
-    </footer>
-    <script type="text/javascript" src="js.js"></script>
+    <div class="name">xenia golovina</div>
+    <div class="subname">QA engineer</div>
+
+    <div class="block">
+      <div class="block-title">contact me at</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="http://t.me/lstlf" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:golovina.k.o@gmail.com">gmail</a>
+        </div>
+        <div class="entry">
+          <a href="https://github.com/xeniagolovina" target="_blank">github</a>
+        </div>
+        <div class="entry">
+          <a href="https://hh.ru/resume/393a7cf4ff0bcd20d10039ed1f786a47673366" target="_blank">hh.ru</a>
+        </div>
+      </div>
+    </div>
+
+    
   </body>
 </html>
